@@ -1,10 +1,15 @@
 import React from "react";
+import Container from "@mui/material/Container";
+
+import CardList from "./components/CardList/CardList";
 
 const App = () => {
   return (
-    <div>
-      <h1>Hello World React Again</h1>
-    </div>
+    <>
+      <Container>
+        <CardList />
+      </Container>
+    </>
   );
 };
 
