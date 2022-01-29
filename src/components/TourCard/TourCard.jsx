@@ -28,7 +28,7 @@ const TourCard = () => {
               <AccessTime sx={{ fontSize: "1.25rem" }} />
             </Grid>
             <Grid item>
-              <Typography variant="body2" component="p">
+              <Typography variant="body3" component="p">
                 6 hours
               </Typography>
             </Grid>

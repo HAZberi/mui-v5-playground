@@ -1,14 +1,18 @@
 import React from "react";
 import Container from "@mui/material/Container";
+import { ThemeProvider } from "@mui/material/styles";
 
 import CardList from "./components/CardList/CardList";
+import theme from "./theme";
 
 const App = () => {
   return (
     <>
-      <Container>
-        <CardList />
-      </Container>
+      <ThemeProvider theme={theme}>
+        <Container>
+          <CardList />
+        </Container>
+      </ThemeProvider>
     </>
   );
 };
