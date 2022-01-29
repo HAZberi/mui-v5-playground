@@ -6,8 +6,7 @@ const theme = createTheme({
       styleOverrides: {
         root: (props) => ({
           ...(props.ownerState.variant === "body3" && {
-            fontSize: 9,
-            color: "blue",
+            fontSize: 13,
           }),
         }),
       },

@@ -24,20 +24,18 @@ const TourCard = () => {
             </Typography>
           </Grid>
           <Grid item container>
-            <Grid item sx={{ marginRight: "0.25rem" }}>
-              <AccessTime sx={{ fontSize: "1.25rem" }} />
+            <Grid item sx={{ marginRight: "0.25rem"}}>
+              <AccessTime sx={{ fontSize: 16, height: '100%' }}/>
             </Grid>
             <Grid item>
-              <Typography variant="body3" component="p">
-                6 hours
-              </Typography>
+              <Typography variant="body3">6 hours</Typography>
             </Grid>
           </Grid>
           <Grid item container mt={3} spacing={1}>
             <Grid item>
               <Rating value={4.5} precision={0.5} size="small" readOnly />
             </Grid>
-            <Grid item sx={{marginLeft: '-0.25rem'}}>
+            <Grid item sx={{ marginLeft: "-0.25rem" }}>
               <Typography variant="body2">4.5</Typography>
             </Grid>
             <Grid item>
@@ -45,7 +43,9 @@ const TourCard = () => {
             </Grid>
           </Grid>
           <Grid item>
-            <Typography variant="h6" component='b'>From $149 CAD</Typography>
+            <Typography variant="h6" component="b">
+              From $149 CAD
+            </Typography>
           </Grid>
         </Grid>
       </Paper>
